@@ -1,0 +1,8 @@
+version: "2"
+services: 
+  bats: 
+    build: .
+    container_name: bats
+    working_dir: /bats
+    volumes: 
+      - ./:/bats
